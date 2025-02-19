@@ -39,7 +39,7 @@ test = "/"
 content = f"""
 地点: 上海-浦东新区
 
-温度: {temp}°C；体感温度: {feels_like}°C；天气: {text}
+天气: {text}；温度: {temp}°C；体感温度: {feels_like}°C
 
 风向: {wind_dir}；风力: {wind_scale}级；风速: {wind_speed}km
 
