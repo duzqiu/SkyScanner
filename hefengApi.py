@@ -37,13 +37,13 @@ show_time = update_time.split("+")[0].replace("T", " ")
 title = f"{show_time} 实时天气"
 content = f"""
 
-温度: {temp}°C 体感温度: {feels_like}°C 天气: {text}
+天气概览/温度: {temp}°C 体感温度: {feels_like}°C 天气: {text}
 
-风向: {wind_dir} 风力等级: {wind_scale} 风速: {wind_speed}km\h
+风力风向/风向: {wind_dir} 风力等级: {wind_scale} 风速: {wind_speed}km\h
 
-湿度: {humidity}% 降水量: {precip}mm
+湿度与降水/湿度: {humidity}% 降水量: {precip}mm
 
-信息来源:和风天气api/
+信息来源:和风天气api
 """
 bark = SendBark(key)
 bark.send_t_c(title, content)
