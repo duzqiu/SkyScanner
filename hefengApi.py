@@ -37,7 +37,7 @@ show_time = update_time.split("+")[0].replace("T", " ")
 title = f"{show_time}"
 test = "/"
 content = f"""
-🌐地点: 上海-浦东新区
+✳️地点: 上海-浦东新区
 
 ✅天气: {text}
 
