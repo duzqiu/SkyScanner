@@ -55,7 +55,7 @@ content = f"""
 
 ✅降水量: {precip}mm
 
-❎信息来源: 和风天气api
+❤️信息来源: 和风天气api
 """
 bark = SendBark(key)
 bark.send_t_c(title, content)
