@@ -38,11 +38,11 @@ title = f"{show_time} 实时天气"
 test = "/"
 content = f"""
 
-温度: {temp}°C 体感温度: {feels_like}°C 天气: {text}
+温度: {temp}°C；体感温度: {feels_like}°C；天气: {text}
 
-风向: {wind_dir} 风力: {wind_scale}级 风速: {wind_speed}km
+风向: {wind_dir}；风力: {wind_scale}级；风速: {wind_speed}km
 
-湿度: {humidity}% 降水量: {precip}mm
+湿度: {humidity}%；降水量: {precip}mm
 
 *信息来源*：和风天气api
 """
