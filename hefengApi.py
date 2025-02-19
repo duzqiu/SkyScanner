@@ -37,7 +37,7 @@ show_time = update_time.split("+")[0].replace("T", " ")
 title = f"{show_time}"
 test = "/"
 content = f"""
-地点：浦东
+地点：上海-浦东新区
 
 温度: {temp}°C；体感温度: {feels_like}°C；天气: {text}
 
