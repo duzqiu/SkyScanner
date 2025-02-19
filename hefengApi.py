@@ -37,13 +37,13 @@ show_time = update_time.split("+")[0].replace("T", " ")
 title = f"{show_time}"
 test = "/"
 content = f"""
-✅地点: 上海-浦东新区
+🌐地点: 上海-浦东新区
 
-✅天气: {text}；温度: {temp}°C；体感温度: {feels_like}°C
+✅天气: {text}0️⃣温度: {temp}°C1️⃣体感温度: {feels_like}°C
 
-✅风向: {wind_dir}；风力: {wind_scale}级；风速: {wind_speed}km
+✅风向: {wind_dir}0️⃣风力: {wind_scale}级1️⃣风速: {wind_speed}km
 
-✅湿度: {humidity}%；降水量: {precip}mm
+✅湿度: {humidity}%0️⃣降水量: {precip}mm
 
 ❎信息来源: 和风天气api
 """
