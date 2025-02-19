@@ -34,10 +34,13 @@ dew = weather_resp.json()['now']['dew'] # 露点温度
 # 发送到bark
 key = "UZ9juRSNtAMpnzWEQokJYF"
 show_time = update_time.split("+")[0].replace("T", " ")
-title = f"{show_time}"
+#title = f"{show_time}"
+title = f"实时天气"
 test = "/"
 content = f"""
 ✳️地点: 上海-浦东新区
+
+✅更新时间: {show_time}
 
 ✅天气: {text}
 
