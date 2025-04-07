@@ -35,7 +35,7 @@ dew = weather_resp.json()['now']['dew'] # 露点温度
 key = "UZ9juRSNtAMpnzWEQokJYF"
 show_time = update_time.split("+")[0].replace("T", " ")
 #title = f"{show_time}"
-title = f"上海-浦东新区实时天气"
+title = f"浦东新区实时天气"
 test = "/"
 content = f"""
 ✅天气: {text}，✅温度: {temp}°C，✅体感温度: {feels_like}°C
