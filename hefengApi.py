@@ -39,25 +39,15 @@ title = f"实时天气"
 test = "/"
 content = f"""
 💟地点: 上海-浦东新区
-
 ✅更新时间: {show_time}
-
 ✅天气: {text}
-
 ✅温度: {temp}°C
-
 ✅体感温度: {feels_like}°C
-
 ✅风向: {wind_dir}
-
 ✅风力: {wind_scale}级
-
 ✅风速: {wind_speed}km
-
 ✅湿度: {humidity}%
-
 ✅降水量: {precip}mm
-
 ❤️信息来源: 和风天气api
 """
 bark = SendBark(key)
