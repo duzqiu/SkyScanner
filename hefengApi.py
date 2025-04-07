@@ -38,7 +38,7 @@ show_time = update_time.split("+")[0].replace("T", " ")
 title = f"浦东新区实时天气"
 test = "/"
 content = f"""
-✅天气: {text}，✅温度: {temp}°C，✅体感温度: {feels_like}°C
+✅天气: {text}，✅温度: {temp}°C，✅体感: {feels_like}°C
 
 ✅风向: {wind_dir}，✅风力: {wind_scale}级，✅风速: {wind_speed}km
 
