@@ -35,7 +35,7 @@ dew = weather_resp.json()['now']['dew'] # 露点温度
 key = "UZ9juRSNtAMpnzWEQokJYF"
 show_time = update_time.split("+")[0].replace("T", " ")
 #title = f"{show_time}"
-title = f"和风天气"
+title = f"和风天气{show_time}"
 test = "/"
 content = f"""
 浦东新区:{text}，{temp}°C，体感: {feels_like}°C，{wind_dir}{wind_scale}级
