@@ -35,12 +35,12 @@ dew = weather_resp.json()['now']['dew'] # 露点温度
 key = "UZ9juRSNtAMpnzWEQokJYF"
 show_time = update_time.split("+")[0].replace("T", " ")
 #title = f"{show_time}"
-title = f"浦东新区实时天气"
+title = f"浦东新区-{text}"
 test = "/"
 content = f"""
-✅天气: {text}，✅温度: {temp}°C，✅体感: {feels_like}°C
+✅温度: {temp}°C，✅体感: {feels_like}°C
 
-✅风向: {wind_dir}，✅风力: {wind_scale}级，✅风速: {wind_speed}km
+✅风向风力: {wind_dir}{wind_scale}级，✅风速: {wind_speed}km
 
 ✅湿度: {humidity}%，✅降水量: {precip}mm
 
