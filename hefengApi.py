@@ -35,12 +35,10 @@ dew = weather_resp.json()['now']['dew'] # 露点温度
 key = "UZ9juRSNtAMpnzWEQokJYF"
 show_time = update_time.split("+")[0].replace("T", " ")
 #title = f"{show_time}"
-title = f"浦东新区"
+title = f"和风天气"
 test = "/"
 content = f"""
-当前天气:{text}，{temp}°C，体感: {feels_like}°C，{wind_dir}{wind_scale}级
-
-❤️信息来源: 和风天气api
+浦东新区:{text}，{temp}°C，体感: {feels_like}°C，{wind_dir}{wind_scale}级
 """
 bark = SendBark(key)
 bark.send_t_c(title, content)
