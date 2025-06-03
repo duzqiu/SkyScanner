@@ -48,9 +48,9 @@ show_time = pd_weather[0].split("+")[0].replace("T", " ")
 title = show_time
 test = "/"
 content = f"""
-浦东:{pd_weather[1]}，{pd_weather[2]}°C，体感: {pd_weather[3]}°C，{pd_weather[4]}{pd_weather[5]}级
+浦东: {pd_weather[1]}，{pd_weather[2]}°C，体感: {pd_weather[3]}°C，{pd_weather[4]}{pd_weather[5]}级
 
-邳州:{pz_weather[1]}，{pz_weather[2]}°C，体感: {pz_weather[3]}°C，{pz_weather[4]}{pz_weather[5]}级
+邳州: {pz_weather[1]}，{pz_weather[2]}°C，体感: {pz_weather[3]}°C，{pz_weather[4]}{pz_weather[5]}级
 
 信息来源：和风天气
 """
