@@ -41,12 +41,7 @@ pz_loc_id = get_location_id("pizhou")
 pd_weather = get_weather(pd_loc_id)
 pz_weather = get_weather(pz_loc_id)
 
-# 发送到bark
-bark_key = "UZ9juRSNtAMpnzWEQokJYF"
 show_time = pd_weather[0].split("+")[0].replace("T", " ")
-#title = f"{show_time}"
-title = show_time
-test = "/"
 content = f"""
 ✅浦东: {pd_weather[1]}，{pd_weather[2]}°C，体感: {pd_weather[3]}°C，{pd_weather[4]}{pd_weather[5]}级
 
@@ -54,5 +49,8 @@ content = f"""
 
 ❤️信息来源：和风天气
 """
+
+# 发送到bark
+bark_key = "UZ9juRSNtAMpnzWEQokJYF"
 bark = SendBark(bark_key)
-bark.send_t_c(title, content)
+bark.send_t_c(show_time,content)
